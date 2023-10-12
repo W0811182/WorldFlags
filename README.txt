@@ -76,3 +76,9 @@ Starting initial migrations now
 Add-Migration InitialCreate -Context WorldFlagsContext
 Update-Database -Context WorldFlagsContext
 Commands used to for initial Migration
+
+
+Now creating seedData.cs in models folder for database
+
+Done creating seed data for flags catalogue now adding the seed initializer to the Program.cs file
+Testing app after adding seed data and changing Program.cs file
