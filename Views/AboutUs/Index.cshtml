@@ -3,5 +3,78 @@
     ViewData["Title"] = "AboutUs";
 }
     <h2>About Us</h2>
+    <style>
+       ul img {
+           margin-top: 1em;
+           width: 10%;
+           height: 5%;
+           border-radius: 35%;
+        }
 
-    <p>Placeholder Text</p>
+       img[title = "COO"]
+       {
+           height: 140px;
+           width: 10%;
+       }
+
+       img {
+           width: 60%;
+           height: 70%;
+       }
+
+        strong {
+            font-size: 1.7em;
+            letter-spacing: 0.1em;
+            color: #33A2FF;
+            margin-left: 1em;
+        }
+        p{
+            display: inline-block;
+            margin-left: 1em;
+            font-size: 1.4em;
+        }
+    </style>
+    <div class="aboutus">
+        <h3>About our Company</h3>
+        <p>
+            We here at WorldFlags are devoted to having the most accurate to the source flags of all countries around the world.
+            With over 50 employees and two facilities, we promise to deliver your best flag experience possible with
+            perfect Colour and Colour ratio
+        </p>
+
+    </div>
+       
+    <div class="staff">
+        <h3>Our Staff</h3>
+        <ul>
+            <li><img src="~/Images/CEO.webp" /><strong>CEO</strong><p>Henry Baum</p></li>
+            <li><img src="~/Images/CFO.webp" /><strong>CFO</strong><p>Mark Waller</p></li>
+            <li><img title="COO" src="~/Images/COO.webp" /><strong>COO</strong><p>Meredith Thompson</p></li>
+            <li><img src="~/Images/GenManager.webp" /><strong>General Manager</strong><p>Terry Shields</p></li>
+        </ul>
+    </div>
+        
+    <div class="office">
+        <h3>Our Office</h3>
+        <h4>Exterior</h4>
+        <figure>
+            <img src="~/Images/officeExterior.jpg" alt="a picture of a sleek looking downtown office exterior" />
+            <figcaption>a picture of a sleek looking downtown office exterior</figcaption>
+        </figure>
+        <h4>Interior</h4>
+        <figure>
+            <img src="~/Images/officeInterior.jpg" alt="A picture of an office lounge area with people in the shot" />
+            <figcaption>A picture of an office lounge area with people in the shot</figcaption>
+        </figure>
+    </div>
+        
+            <div class="flags">
+                <h3>Our flags</h3>
+                <p>
+                    Our team goes through numerous tests to ensure the perfect Colour matching in our flags to match the genuine
+                    flag of any given country. The proportions and perfect symmetry is our guarantee when
+                    purchasing any of the flags we sell. Sizes come in small, medium, large, and, Extra Large while
+                    still keeping perfect proportion and placement.
+                </p>
+            </div>
+           
