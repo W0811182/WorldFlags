@@ -2,25 +2,25 @@
 @{ 
     ViewData["Title"] = "AboutUs";
 }
+    
     <h2>About Us</h2>
     <style>
-       ul img {
-           margin-top: 1em;
-           width: 10%;
-           height: 5%;
-           border-radius: 35%;
+        ul img {
+            margin-top: 1em;
+            width: 10%;
+            height: 5%;
+            border-radius: 35%;
         }
 
-       img[title = "COO"]
-       {
-           height: 140px;
-           width: 10%;
-       }
+        img[title = "COO"] {
+            height: 140px;
+            width: 10%;
+        }
 
-       img {
-           width: 60%;
-           height: 70%;
-       }
+        img {
+            width: 60%;
+            height: 70%;
+        }
 
         strong {
             font-size: 1.7em;
@@ -28,10 +28,40 @@
             color: #33A2FF;
             margin-left: 1em;
         }
-        p{
+
+        p {
             display: inline-block;
             margin-left: 1em;
             font-size: 1.4em;
+        }
+
+        header {
+            background-color: RGBA(51, 162, 255, 0.6);
+            height: auto;
+        }
+
+        footer {
+            background-color: RGBA(255, 0, 0, 0.6);
+        }
+
+        body {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        figcaption
+        {
+            visibility:hidden;
+        }
+        figure:hover figcaption{
+            visibility:visible
+        }
+        p{
+            margin-top: 1em;
+            margin-bottom: 1em;
+        }
+
+        h1,h2,h3,h4,h5,h6,p
+        {
+            text-align: center
         }
     </style>
     <div class="aboutus">
@@ -39,7 +69,7 @@
         <p>
             We here at WorldFlags are devoted to having the most accurate to the source flags of all countries around the world.
             With over 50 employees and two facilities, we promise to deliver your best flag experience possible with
-            perfect Colour and Colour ratio
+            perfect colour and colour ratio
         </p>
 
     </div>
@@ -63,15 +93,15 @@
         </figure>
         <h4>Interior</h4>
         <figure>
-            <img src="~/Images/officeInterior.jpg" alt="A picture of an office lounge area with people in the shot" />
-            <figcaption>A picture of an office lounge area with people in the shot</figcaption>
+            <img src="~/Images/officeInterior.jpg" alt="A picture of an office lounge area with a person in the background" />
+            <figcaption>A picture of an office lounge area with a person in the background</figcaption>
         </figure>
     </div>
         
             <div class="flags">
                 <h3>Our flags</h3>
                 <p>
-                    Our team goes through numerous tests to ensure the perfect Colour matching in our flags to match the genuine
+                    Our team goes through numerous tests to ensure the perfect colour matching in our flags to match the genuine
                     flag of any given country. The proportions and perfect symmetry is our guarantee when
                     purchasing any of the flags we sell. Sizes come in small, medium, large, and, Extra Large while
                     still keeping perfect proportion and placement.

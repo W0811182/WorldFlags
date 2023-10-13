@@ -5,7 +5,7 @@ company
 
 Program Author: Eric Workman
 
-Date: 2023-10-12 
+------------------------------------------------------2023-10-12-------------------------------------------------------
 
 -- 1301--
 
@@ -21,6 +21,13 @@ Changed title on webapp to "WorldFlags" and changed the welcome message to inclu
 removed the default asp.net message when starting a new project and am going to 
 make it link to the catalogue page.
 
+
+Key characteristics of flags that will be taken into consideration when making the database model will be:
+-Colour
+-Shapes and Symbols
+-Country
+
+ 
 Now going to create the Catalogue folder and Catalogue.cs Controller and alter it to return
 a new page that will have the catalogue.
 
@@ -83,7 +90,7 @@ Now creating seedData.cs in models folder for database
 Done creating seed data for flags catalogue now adding the seed initializer to the Program.cs file
 Testing app after adding seed data and changing Program.cs file
 
-2023-10-13
+------------------------------------------------2023-10-13-----------------------------------------------
 
 --1158
 
@@ -91,7 +98,6 @@ After reviewing what I have done so far and looking
 at the requirements on the rubric i have to still
 	-customize the layout of the pages
 	-link on the front page "here" links to the catalogue page as intended
-	-search and filter functions for the catalogue page
 	-make copyright year automatically updatable
 	-deploy to azure?
 
@@ -101,3 +107,22 @@ Link on home page now directs to flags catalogue
 using DateTime.now.year to maek the copyright year update automatically
 
 Now moving on to thinking of some ideas for the layout and testing some colours and fonts
+
+--1531
+
+customizations made to pages include
+-A red footer for the shared layout
+-different font for the whole page (Trebuchet MS)
+-changed the headers and paragraphs on the "about Us" page to align on the center of the page
+-made the figure captions be hidden by default and reappear upon hovering over the figures
+-strong tags come in blue (#33A2FF)
+-added images of stock photos of fictional team members for the fictional company
+-added images of stock photos of office building exterior and interior to show off on the "About Us" page
+
+commiting final comit before trying to deploy my webapp to azure
+
+With plenty of time left to spare and no interest in trying to make the css work anymore i am gonna figure out azure deployment
+
+--1547
+
+app deployed to azure (catalogue not working)
