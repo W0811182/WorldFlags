@@ -82,3 +82,22 @@ Now creating seedData.cs in models folder for database
 
 Done creating seed data for flags catalogue now adding the seed initializer to the Program.cs file
 Testing app after adding seed data and changing Program.cs file
+
+2023-10-13
+
+--1158
+
+After reviewing what I have done so far and looking 
+at the requirements on the rubric i have to still
+	-customize the layout of the pages
+	-link on the front page "here" links to the catalogue page as intended
+	-search and filter functions for the catalogue page
+	-make copyright year automatically updatable
+	-deploy to azure?
+
+Now linking the link on the front page to go to the catalogue view
+Link on home page now directs to flags catalogue
+
+using DateTime.now.year to maek the copyright year update automatically
+
+Now moving on to thinking of some ideas for the layout and testing some colours and fonts
